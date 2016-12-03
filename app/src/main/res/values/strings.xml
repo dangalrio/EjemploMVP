@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">PruevaSvn</string>
+    <string name="btn_float_ext">Boton flotante extendido</string>
 </resources>
