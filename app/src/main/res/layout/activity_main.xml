@@ -26,4 +26,13 @@
         android:text="@string/btn_float_animado"
         android:background="@color/colorPrimary"
         android:textColor="#ffff"/>
+
+    <Button
+        android:id="@+id/btn_float_transformacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:text="@string/btn_float_trans"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffff"/>
 </LinearLayout>

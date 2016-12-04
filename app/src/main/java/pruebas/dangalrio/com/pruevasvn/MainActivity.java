@@ -8,7 +8,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button boton_flotante_extendido,boton_float_animado;
+    Button boton_flotante_extendido,boton_float_animado,boton_float_transformacion;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,5 +33,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        boton_float_transformacion = (Button) findViewById(R.id.btn_float_transformacion);
+        boton_float_transformacion.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(view.getContext(),BotonFlotanteTransformacionActivity.class);
+                startActivity(i);
+            }
+        });
     }
 }

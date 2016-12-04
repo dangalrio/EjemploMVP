@@ -19,6 +19,10 @@
         <activity
             android:name=".AnimacionBotonFlotanteActivity"
             android:label="@string/title_activity_animacion_boton_flotante"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".BotonFlotanteTransformacionActivity"
+            android:label="@string/title_activity_boton_flotante_transformacion"
             android:theme="@style/AppTheme"></activity>
     </application>
 

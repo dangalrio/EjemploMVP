@@ -3,4 +3,8 @@
     <string name="btn_float_ext">Boton flotante extendido</string>
     <string name="title_activity_animacion_boton_flotante">AnimacionBotonFlotanteActivity</string>
     <string name="btn_float_animado">Boton flotante animado</string>
+    <string name="title_activity_boton_flotante_transformacion">
+        BotonFlotanteTransformacionActivity
+    </string>
+    <string name="btn_float_trans">Boton flotante transformacion</string>
 </resources>
