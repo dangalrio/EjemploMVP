@@ -15,7 +15,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".FloatButtonExtendedActivity"></activity>
+        <activity android:name=".FloatButtonExtendedActivity" />
+        <activity
+            android:name=".AnimacionBotonFlotanteActivity"
+            android:label="@string/title_activity_animacion_boton_flotante"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>

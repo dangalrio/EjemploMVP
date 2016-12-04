@@ -8,7 +8,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button boton_flotante_extendido;
+    Button boton_flotante_extendido,boton_float_animado;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,5 +23,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
+        boton_float_animado = (Button) findViewById(R.id.btn_float_animado);
+        boton_float_animado.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(view.getContext(),AnimacionBotonFlotanteActivity.class);
+                startActivity(i);
+            }
+        });
+
     }
 }
