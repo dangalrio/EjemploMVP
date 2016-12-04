@@ -8,7 +8,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button boton_flotante_extendido,boton_float_animado,boton_float_transformacion;
+    Button boton_flotante_extendido,boton_float_animado,boton_float_transformacion,boton_float_menu;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,6 +38,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(view.getContext(),BotonFlotanteTransformacionActivity.class);
+                startActivity(i);
+            }
+        });
+
+        boton_float_menu = (Button) findViewById(R.id.btn_float_menu);
+        boton_float_menu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(view.getContext(),BotonFlotanteMenuActivity.class);
                 startActivity(i);
             }
         });

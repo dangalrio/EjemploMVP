@@ -7,4 +7,6 @@
         BotonFlotanteTransformacionActivity
     </string>
     <string name="btn_float_trans">Boton flotante transformacion</string>
+    <string name="title_activity_boton_flotante_menu">BotonFlotanteMenuActivity</string>
+    <string name="btn_float_menu">Boton flotante menu</string>
 </resources>
